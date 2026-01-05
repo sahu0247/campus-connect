@@ -8,15 +8,14 @@ import { getFirestore, doc, getDoc, setDoc, deleteDoc, collection, query, where,
 
 
 // Firebase configuration - REPLACE WITH YOUR ACTUAL CONFIG
-import { initializeApp } from "firebase/app"; 
-const firebaseConfig = { apiKey: process.env.REACT_APP_API_KEY, 
-                        authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-                        projectId: process.env.REACT_APP_PROJECT_ID, 
-                        storageBucket: process.env.REACT_APP_STORAGE_BUCKET, 
-                        messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID, 
-                        appId: process.env.REACT_APP_APP_ID }; 
-const app = initializeApp(firebaseConfig);
-
+const firebaseConfig = {
+  apiKey: "AIzaSyCMkWX4yKIpEeGi6SJF5Q_gaxWZalYoZM0",
+  authDomain: "campusconnect-369c0.firebaseapp.com",
+  projectId: "campusconnect-369c0",
+  storageBucket: "campusconnect-369c0.firebasestorage.app",
+  messagingSenderId: "645916531002",
+  appId: "1:645916531002:web:02ea0c0bd45fb68a52d803"
+};
 
 
 
